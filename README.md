@@ -1,0 +1,41 @@
+# Lazaro Davinchy Jewelry — Website
+
+A luxury jewelry website for [@lazarodavinchy_jewelry](https://www.instagram.com/lazarodavinchy_jewelry/), inspired by the look and structure of high-end jeweler sites (announcement bar, hero, collections, featured pieces, custom-design process, testimonials, Instagram feed, contact).
+
+Pure static HTML/CSS/JS — no build step, no dependencies. Works on GitHub Pages or any static host.
+
+## Structure
+
+```
+index.html        # single-page site (all sections)
+css/style.css     # dark charcoal + champagne-gold theme
+js/main.js        # mobile nav, sticky header, reveal animations, contact form
+images/           # product photos
+```
+
+## ⚠️ Replace the placeholder photos
+
+The three files in `images/` are elegant placeholders. Overwrite them with the real photos (keep the same filenames):
+
+| File | Used for |
+|---|---|
+| `images/ring.png` | Engagement rings / bridal set / about section |
+| `images/bracelet.png` | Tennis bracelets |
+| `images/rolex.png` | Luxury timepieces |
+
+For best results use portrait (4:5) photos — the layout crops with `object-fit: cover`, so any size works.
+
+## Customize
+
+- **Contact info** — the contact section currently points to Instagram DMs only. Add phone, email, or address in the `#contact` section of `index.html`.
+- **Contact form** — currently copies the inquiry and opens Instagram. Point it at a real endpoint (Formspree, Netlify Forms, etc.) in `js/main.js`.
+- **Prices** — product cards show "Price on request"; edit them in the `#featured` section.
+
+## Run locally
+
+Open `index.html` in a browser, or:
+
+```bash
+python3 -m http.server 8000
+# → http://localhost:8000
+```
