@@ -21,18 +21,16 @@ js/main.js             # mobile nav, dropdown, sticky header, reveal animations,
 images/                # product photos
 ```
 
-## ⚠️ Replace the placeholder photos
-
-The files in `images/` are elegant placeholders. Overwrite them with the real photos (keep the same filenames):
+## Photos
 
 | File | Used for |
 |---|---|
 | `images/ring.png` | Engagement rings / bridal set / about section |
 | `images/bracelet.png` | Tennis bracelets |
 | `images/rolex.png` | Luxury timepieces |
-| `images/chains.png` | Chains & pendants |
+| `images/necklace.png` | Chains & pendants |
 
-For best results use portrait (4:5) photos — the layout crops with `object-fit: cover`, so any size works.
+To swap a photo, upload a new image over the same filename. Portrait (4:5) photos look best — the layout crops with `object-fit: cover`, so any size works.
 
 ## Customize
 
