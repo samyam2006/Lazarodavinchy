@@ -4,24 +4,33 @@ A luxury jewelry website for [@lazarodavinchy_jewelry](https://www.instagram.com
 
 Pure static HTML/CSS/JS — no build step, no dependencies. Works on GitHub Pages or any static host.
 
-## Structure
+## Pages
 
 ```
-index.html        # single-page site (all sections)
-css/style.css     # dark charcoal + champagne-gold theme
-js/main.js        # mobile nav, sticky header, reveal animations, contact form
-images/           # product photos
+index.html             # home: hero, categories, featured pieces, testimonials, Instagram
+collections.html       # collections index (all four categories)
+engagement-rings.html  # collection page
+timepieces.html        # collection page
+bracelets.html         # collection page
+chains.html            # collection page
+custom.html            # custom design process & services
+about.html             # story + testimonials
+contact.html           # consultation booking / inquiry form
+css/style.css          # dark charcoal + champagne-gold theme
+js/main.js             # mobile nav, dropdown, sticky header, reveal animations, form
+images/                # product photos
 ```
 
 ## ⚠️ Replace the placeholder photos
 
-The three files in `images/` are elegant placeholders. Overwrite them with the real photos (keep the same filenames):
+The files in `images/` are elegant placeholders. Overwrite them with the real photos (keep the same filenames):
 
 | File | Used for |
 |---|---|
 | `images/ring.png` | Engagement rings / bridal set / about section |
 | `images/bracelet.png` | Tennis bracelets |
 | `images/rolex.png` | Luxury timepieces |
+| `images/chains.png` | Chains & pendants |
 
 For best results use portrait (4:5) photos — the layout crops with `object-fit: cover`, so any size works.
 

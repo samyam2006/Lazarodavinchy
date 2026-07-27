@@ -40,7 +40,7 @@ document.querySelectorAll(".reveal").forEach((el) => observer.observe(el));
 // Swap this handler for a real endpoint (Formspree, Netlify Forms, etc.)
 // when one is available.
 const form = document.querySelector(".contact-form");
-form.addEventListener("submit", (e) => {
+form?.addEventListener("submit", (e) => {
   e.preventDefault();
   const note = form.querySelector(".form-note");
   const data = new FormData(form);
