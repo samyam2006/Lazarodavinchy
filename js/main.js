@@ -1,4 +1,4 @@
-// Lazaro Davinchy Jewelry — site interactions
+// Lazaro Davinchy Jewelry, site interactions
 
 // Enables the reveal-on-scroll hidden state (kept off for no-JS visitors)
 document.documentElement.classList.add("js");
@@ -47,13 +47,13 @@ form?.addEventListener("submit", (e) => {
   const summary = [
     "Hi Lazaro Davinchy! I'm interested in: " + data.get("interest"),
     data.get("message"),
-    "— " + data.get("name") + " (" + data.get("email") + ")",
+    "From " + data.get("name") + " (" + data.get("email") + ")",
   ].join("\n\n");
 
   navigator.clipboard?.writeText(summary).catch(() => {});
   note.textContent =
     "Thank you, " + data.get("name") +
-    "! Your inquiry was copied to your clipboard — paste it in our Instagram DMs and we'll reply shortly.";
+    "! Your inquiry was copied to your clipboard, paste it in our Instagram DMs and we'll reply shortly.";
   note.hidden = false;
   window.open("https://www.instagram.com/lazarodavinchy_jewelry/", "_blank", "noopener");
 });

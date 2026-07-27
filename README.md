@@ -25,6 +25,8 @@ images/                # product photos
 
 | File | Used for |
 |---|---|
+| `images/logo.png` | Brand logo (header badge + footer) |
+| `images/lazarostore.png` | Storefront photo in the split hero |
 | `images/ring.png` | Engagement rings / bridal set / about section |
 | `images/bracelet.png` | Tennis bracelets |
 | `images/rolex.png` | Luxury timepieces |
