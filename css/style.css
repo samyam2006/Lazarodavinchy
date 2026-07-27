@@ -567,6 +567,10 @@ a { color: inherit; text-decoration: none; }
 .visit-copy p { margin-bottom: 1.1rem; }
 .visit-copy .hero-cta { justify-content: flex-start; margin-top: 1.6rem; }
 
+.visit-address { display: flex; flex-direction: column; gap: 0.35rem; margin: 1.6rem 0 0; }
+.visit-address a { font-family: var(--serif); font-size: 1.15rem; color: var(--ivory); transition: color 0.3s; }
+.visit-address a:hover { color: var(--gold); }
+
 /* ---------- custom process ---------- */
 
 .steps {
